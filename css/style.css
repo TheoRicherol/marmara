@@ -9,7 +9,7 @@ font-family: Calibri , sans-serif;
 }
 
 h3{
-    font-family: 'Candara' , Arial , sans-serif;
+    font-family: Candara , Arial , sans-serif;
     font-size: 3em;
     margin-right: 10px;
 }
@@ -25,11 +25,12 @@ h2 span{
 }
 
 h4{
-    font-family: 'Candara' , Arial , sans-serif;
+    font-family: Candara , Arial , sans-serif;
     font-weight: 100;
     font-size: 1em;
-    color: color: rgb(8, 42, 94);
+    color: rgb(8, 42, 94);
 }
+
 p{
     font-size: 20px;
     font-family: sans-serif;
