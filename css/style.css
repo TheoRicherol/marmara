@@ -1,11 +1,9 @@
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
 }
 
-body,
-html {
-    width: 100%;
+body,html{
     height: 100%;
 }
 
@@ -44,32 +42,53 @@ p {
     font-family: sans-serif;
     color: rgb(115, 120, 133);
 }
-
-.img {
+.logo{
+    width: 10%;
+}
+img {
     max-width: 100%;
     height: auto;
 }
-.card{
-    width: 100%;
-}
-.global,
-.card,
-.name,
-title,
-.note,
-.traveInfo,
-.price,
-.moreInfo,
-.clearance,
-.payment {
+.global,.card,.name,title,.note,.traveInfo,.price,.moreInfo,.clearance,.payment {
     display: flex;
 }
-
+.global{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+}
 .card {
     flex-direction: column;
+    width: 100%;
+}
+.cardInfo {
+    min-width: 85%;
 }
 
-.name {
-    align-items: flex-start;
+.name,
+.title {
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.name img {
+    max-width: 20px;
+}
+
+.note {
+    align-items: baseline;
+}
+
+.travelInfo,
+.payment,
+.price {
+    align-items: center;
+}
+
+.moreInfo{
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid;
 }
